@@ -1,0 +1,55 @@
+#container {
+	position: absolute;
+	left: 25em;
+	top: 4em;
+    background-color: black;
+	height: 512px;
+	width: 512px;
+	border: 2px solid black;
+}
+
+.pixel {
+    background-color: white;
+	height: 30px;
+	width: 30px;
+    float: left;
+	margin: 1px;
+}
+
+button {
+	position: relative;
+	display: block;
+	left: 70em;
+	top: 10em;
+	background-color: gray;
+	color: white;
+	padding: 5px;
+	border: 2px solid gray;
+	margin: 10px;
+}
+
+.colors button {
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+}
+
+#red {background-color: red;}
+
+#blue {background-color: blue;}
+
+#yellow {background-color: yellow;}
+
+#rainbow { background: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0%, rgba(255, 0, 0, 1)), 
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+}
+
+#black { background-color: black; }
+
+#white { background-color: white; }
